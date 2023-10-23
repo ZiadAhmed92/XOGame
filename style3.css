@@ -1,0 +1,61 @@
+.continer{
+    background-color: aqua;
+    width: 255px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+.header{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: brown;
+
+}
+.iteam{
+    background-color: brown;
+    width: 70px;
+    height: 80px;
+    float: left;
+    margin: 2px 2px 2px 8px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+ 
+}
+.iteam:hover{
+    background-color: black;
+    cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+ 
+    .continer{
+        background-color: aqua;
+        width:95%;
+        height: 400px;
+        margin: auto;
+        padding: 10px;
+    }
+    .iteam{
+        background-color: brown;
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 8px 10px 8px 10px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+      
+    }
+    .header{
+        text-align: center;
+        margin: 5px;
+        padding: 15px;
+        background-color: brown;
+    
+    }
+  }
